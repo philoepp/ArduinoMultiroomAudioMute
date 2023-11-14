@@ -85,35 +85,35 @@ void loop(){
                     // Control arduino pins based on requested URL
                     if(readString.indexOf("?Zone1On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_1, HIGH);
+                        digitalWrite(PIN_ZONE_1, LOW);
                     }
                     else if(readString.indexOf("?Zone2On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_2, HIGH); 
+                        digitalWrite(PIN_ZONE_2, LOW); 
                     }
                     else if(readString.indexOf("?Zone3On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_3, HIGH); 
+                        digitalWrite(PIN_ZONE_3, LOW); 
                     }
                     else if(readString.indexOf("?Zone4On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_4, HIGH); 
+                        digitalWrite(PIN_ZONE_4, LOW); 
                     }
                     else if(readString.indexOf("?Zone5On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_5, HIGH); 
+                        digitalWrite(PIN_ZONE_5, LOW); 
                     }
                     else if(readString.indexOf("?Zone6On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_6, HIGH); 
+                        digitalWrite(PIN_ZONE_6, LOW); 
                     }
                     else if(readString.indexOf("?Zone7On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_7, HIGH); 
+                        digitalWrite(PIN_ZONE_7, LOW); 
                     }
                     else if(readString.indexOf("?Zone8On") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_8, HIGH); 
+                        digitalWrite(PIN_ZONE_8, LOW); 
                     }
                     else if(readString.indexOf("?RelayOn") > -1) 
                     {
@@ -121,35 +121,35 @@ void loop(){
                     }
                     else if(readString.indexOf("?Zone1Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_1, LOW); 
+                        digitalWrite(PIN_ZONE_1, HIGH); 
                     }
                     else if(readString.indexOf("?Zone2Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_2, LOW); 
+                        digitalWrite(PIN_ZONE_2, HIGH); 
                     }
                     else if(readString.indexOf("?Zone3Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_3, LOW); 
+                        digitalWrite(PIN_ZONE_3, HIGH); 
                     }
                     else if(readString.indexOf("?Zone4Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_4, LOW); 
+                        digitalWrite(PIN_ZONE_4, HIGH); 
                     }
                     else if(readString.indexOf("?Zone5Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_5, LOW); 
+                        digitalWrite(PIN_ZONE_5, HIGH); 
                     }
                     else if(readString.indexOf("?Zone6Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_6, LOW); 
+                        digitalWrite(PIN_ZONE_6, HIGH); 
                     }
                     else if(readString.indexOf("?Zone7Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_7, LOW); 
+                        digitalWrite(PIN_ZONE_7, HIGH); 
                     }
                     else if(readString.indexOf("?Zone8Off") > -1) 
                     {
-                        digitalWrite(PIN_ZONE_8, LOW); 
+                        digitalWrite(PIN_ZONE_8, HIGH); 
                     }
                     else if(readString.indexOf("?RelayOff") > -1) 
                     {
