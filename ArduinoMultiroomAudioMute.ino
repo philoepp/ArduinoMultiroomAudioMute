@@ -9,14 +9,14 @@ EthernetServer server(80); //server port
 
 String readString;
 
-#define PIN_ZONE_1  2
-#define PIN_ZONE_2  3
-#define PIN_ZONE_3  4
-#define PIN_ZONE_4  5
-#define PIN_ZONE_5  6
-#define PIN_ZONE_6  7
-#define PIN_ZONE_7  8
-#define PIN_ZONE_8  9
+#define PIN_ZONE_1  5
+#define PIN_ZONE_2  4
+#define PIN_ZONE_3  3
+#define PIN_ZONE_4  2
+#define PIN_ZONE_5  9
+#define PIN_ZONE_6  8
+#define PIN_ZONE_7  7
+#define PIN_ZONE_8  6
 #define PIN_RELAY   18 // A0
 
 void setup()
