@@ -17,7 +17,7 @@ String readString;
 #define PIN_ZONE_6  7
 #define PIN_ZONE_7  8
 #define PIN_ZONE_8  9
-#define PIN_RELAY   14 // A0
+#define PIN_RELAY   18 // A0
 
 void setup()
 {
